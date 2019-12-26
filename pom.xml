@@ -6,6 +6,7 @@
 
     <groupId>com.xsj.web</groupId>
     <artifactId>alibaba-sentinel-dashboard-nacos</artifactId>
+     <version>1.7.0</version>
 
     <parent>
         <groupId>com.alibaba.csp</groupId>
@@ -100,12 +101,6 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
-        <!-- for Nacos rule publisher sample -->
-        <dependency>
-            <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-datasource-nacos</artifactId>
-            <scope>test</scope>
-        </dependency>
         <!-- for Apollo rule publisher sample -->
         <dependency>
             <groupId>com.ctrip.framework.apollo</groupId>
