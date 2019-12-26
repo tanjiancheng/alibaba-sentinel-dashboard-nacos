@@ -151,7 +151,7 @@
     </dependencies>
 
     <build>
-        <finalName></finalName>
+        <finalName>gateway-dashboard</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
