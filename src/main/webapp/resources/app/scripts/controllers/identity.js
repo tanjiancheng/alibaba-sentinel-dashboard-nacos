@@ -95,7 +95,8 @@ app.controller('IdentityCtl', ['$scope', '$stateParams', 'IdentityService',
       FlowService.newRule(flowRuleDialogScope.currentRule).success(function (data) {
         if (data.code === 0) {
           flowRuleDialog.close();
-          let url = '/dashboard/flow/' + $scope.app;
+          //let url = '/dashboard/flow/' + $scope.app;
+          let url = '/dashboard/v2/flow/' + $scope.app; //modify by tam
           $location.path(url);
         } else {
           alert('失败!');
