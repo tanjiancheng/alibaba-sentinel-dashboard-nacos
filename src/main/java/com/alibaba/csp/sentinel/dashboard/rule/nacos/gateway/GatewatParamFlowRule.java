@@ -9,6 +9,7 @@ import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowRule;
  * 网关流控规则类
  *
  * @author tam
+ * add by tam
  */
 public class GatewatParamFlowRule extends ParamFlowRule {
     private long intervalSec = 1;

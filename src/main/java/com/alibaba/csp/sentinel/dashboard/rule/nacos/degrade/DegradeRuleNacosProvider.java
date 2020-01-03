@@ -26,6 +26,7 @@ import java.util.List;
 
 /**
  * @author itmuch.com
+ * add by tam
  */
 @Component("degradeRuleNacosProvider")
 public class DegradeRuleNacosProvider implements DynamicRuleProvider<List<DegradeRuleEntity>> {

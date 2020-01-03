@@ -42,6 +42,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @author leyou
+ * add by tam
  */
 @Controller
 @RequestMapping(value = "/degrade", produces = MediaType.APPLICATION_JSON_VALUE)

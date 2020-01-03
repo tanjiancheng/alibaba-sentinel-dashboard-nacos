@@ -32,6 +32,7 @@ import java.util.Properties;
 
 /**
  * @wiki https://github.com/eacdy/Sentinel-Dashboard-Nacos
+ * add by tam
  */
 @Configuration
 public class NacosConfig {

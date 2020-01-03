@@ -28,6 +28,7 @@ import java.util.List;
 /**
  * @author Eric Zhao
  * @since 1.4.0
+ * add by tam
  */
 @Component("gatewayApiRuleNacosPublisher")
 public class GatewayApiRuleNacosPublisher implements DynamicRulePublisher<List<ApiDefinitionEntity>> {

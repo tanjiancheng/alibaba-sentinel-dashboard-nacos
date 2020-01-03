@@ -220,6 +220,7 @@ public class GatewayFlowRuleEntity implements RuleEntity {
 
     @Override
     public Rule toRule() {
+        //add by tam
         GatewatParamFlowRule paramFlowRule = new GatewatParamFlowRule();
         paramFlowRule.setResource(this.getResource());
         paramFlowRule.setCount(this.getCount());
@@ -234,7 +235,6 @@ public class GatewayFlowRuleEntity implements RuleEntity {
         //这里需要增加intervalSec参数，GatewayFlowRule需要，否则一直是默认值1
         paramFlowRule.setIntervalSec(paramFlowRule.getDurationInSec());
 
-        //todo params
         GatewayParamFlowItemEntity gatewayItem = this.getParamItem();
         paramFlowRule.setParamItem(gatewayItem);
 

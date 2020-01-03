@@ -26,6 +26,7 @@ import java.util.List;
 
 /**
  * @author itmuch.com
+ * add by tam
  */
 @Component("systemRuleNacosProvider")
 public class SystemRuleNacosProvider implements DynamicRuleProvider<List<SystemRuleEntity>> {

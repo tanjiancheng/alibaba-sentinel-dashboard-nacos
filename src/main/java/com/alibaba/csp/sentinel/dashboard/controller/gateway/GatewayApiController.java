@@ -45,6 +45,7 @@ import static com.alibaba.csp.sentinel.adapter.gateway.common.SentinelGatewayCon
  *
  * @author tam
  * @since 1.7.0
+ * modify by tam
  */
 @RestController
 @RequestMapping(value = "/gateway/api")

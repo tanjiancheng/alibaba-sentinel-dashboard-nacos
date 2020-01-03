@@ -27,6 +27,7 @@ import java.util.List;
 
 /**
  * @author itmuch.com
+ * add by tam
  */
 @Component("paramFlowRuleNacosPublisher")
 public class ParamFlowRuleNacosPublisher implements DynamicRulePublisher<List<ParamFlowRuleEntity>> {

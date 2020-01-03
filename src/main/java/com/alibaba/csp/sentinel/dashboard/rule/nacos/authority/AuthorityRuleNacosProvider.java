@@ -26,6 +26,7 @@ import java.util.List;
 
 /**
  * @author itmuch.com
+ * add by tam
  */
 @Component("authorityRuleNacosProvider")
 public class AuthorityRuleNacosProvider implements DynamicRuleProvider<List<AuthorityRuleEntity>> {
